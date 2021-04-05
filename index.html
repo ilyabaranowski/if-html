@@ -1,13 +1,193 @@
-    <!DOCTYPE html/>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Document</title>
-    </head>
-    <body>
-        <h1>My first page</h1>
-        <p><a href="./about/index.html"></a></p>  
-    </body>
-    </html>
+<!DOCTYPE html />
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            width: 900px;
+            background: white;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>My first page</h1>
+    <p><a href="./about/index.html"></a></p>
+    <hr />
+    <p>&#10004;
+        Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Ut ipsum lacus,
+        egestas sit amet rutrum in,
+        bibendum ut nunc. Cras quis sem interdum,
+        ultrices dolor at,
+        fringilla mi. Nulla mollis tortor at justo fermentum placerat. Donec laoreet ullamcorper nulla. Donec posuere
+        hendrerit nisi,
+        sit amet commodo nibh sollicitudin at. Cras eros lacus,
+        sodales eget sem in,
+        semper scelerisque ipsum. Nulla sed tempor massa. Sed ut ex sit amet urna vehicula luctus. Aliquam eu mauris
+        eros. Duis mollis pretium porta. Aliquam sodales ipsum eu purus euismod,
+        ut mattis lacus porttitor. In hac habitasse platea dictumst. Nunc malesuada neque in dui suscipit,
+        sed pharetra libero aliquet.&#128203</p>
+    <p>&bull;
+        In a dictum justo. Aenean ac euismod tellus,
+        nec iaculis sapien. Nulla scelerisque urna vel lorem ultrices iaculis. Nulla fermentum molestie mollis. Vivamus
+        accumsan mi lorem,
+        non eleifend orci finibus a. Donec pretium lorem nisl,
+        non lobortis turpis pellentesque id. Curabitur dapibus auctor orci,
+        id elementum nisl feugiat vel. Fusce vestibulum vehicula felis ut pretium. Proin dignissim,
+        odio non dignissim auctor,
+        arcu augue mattis orci,
+        quis fringilla nulla mi ac erat. Ut quis metus eget metus auctor elementum tincidunt at tortor. Quisque eros
+        massa,
+        eleifend non tempor non,
+        porttitor at risus. Curabitur laoreet nulla neque. Nulla interdum elementum felis quis egestas. Curabitur et
+        tristique massa.&#128213;
+    </p>
+    <br />
+    <img src="https://hungarytoday.hu/wp-content/uploads/2018/02/18ps27.jpg" alt="Hide the Pain Harold" />
+    <br />
+    <ol>
+        <strong>
+            <li>Знакомство с WEB</li>
+        </strong>
+        <ul>
+            <strong>
+                <li>Краткая история Web и что такое интернет.</li>
+                <li>Как устроен браузер и как он получает страницы по сети.</li>
+                <li>Что такое Git?</li>
+                <li>Создание первого репозитория.</li>
+                <li>О файле .gitignore.</li>
+            </strong>
+        </ul>
+        <strong>
+            <li>HTML-вёрстка – первые шаги</li>
+        </strong>
+        <ul>
+            <strong>
+                <li>Настройка рабочей среды.</li>
+                <li>Краткая история HTML.</li>
+                <li>Какие бывают теги и что такое атрибут.</li>
+                <li>Теги для работы с текстом.</li>
+                <li>Создание собственной страницы.</li>
+                <strong>
+        </ul>
+        <strong>
+            <li>Погружение в HTML-разметку</li>
+        </strong>
+        <ul>
+            <strong>
+                <li>Мета-теги.</li>
+                <li>Теги для работы со списками.</li>
+                <li>Теги для работы с таблицами.</li>
+                <li>Теги для работы с формами.</li>
+                <li>Div-блоки.</li>
+            </strong>
+        </ul>
+    </ol>
+    <table>
+        <tr>
+            <th>Tag</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>&lt;table></td>
+            <td>Defines a table</td>
+        </tr>
+        <tr>
+            <td> &lt;tr></td>
+            <td>Defines a row in table</td>
+        </tr>
+        <tr>
+            <td>&lt;th></td>
+            <td rowspan="2">Defines a "header cell" / "cell" in a table</td>
+        </tr>
+        <tr>
+            <td>&lt;td></td>
+        </tr>
+        <tr>
+            <td colspan="2">Rarley used</td>
+        </tr>
+        <tr>
+            <td>&lt;caption></td>
+            <td>Defines a table caption</td>
+        </tr>
+        <tr>
+            <td>&lt;thead></td>
+            <td>Groups the header content in a table</td>
+        </tr>
+        <tr>
+            <td>&lt;tbody></td>
+            <td>Groups the body content in a table</td>
+        </tr>
+        <tr>
+            <td>&lt;tfoot></td>
+            <td>Groups the footer content in a table</td>
+        </tr>
+    </table>
+    <br />
+    <fieldset>
+        <legend>My first form</legend>
+        <form action="" method="">
+            <label for="Name">Name</label>
+            <br />
+            <input type="text" required id="Name" name="FName" placeholder="Name" />
+            <br />
+            <label for="Email">Email</label>
+            <br />
+            <input type="text" required id="Email" name="Email" />
+            <br />
+            <label for="Passwod">Password</label>
+            <br />
+            <input type="password" required id="Passwod" name="Passwod" />
+            </p>
+            <h5> Your programming level</h5>
+            <input type="range" min="1" max="10" value="1" oninput="this.nextElementSibling.value = this.value" />
+            <output>1</output>
+            <br />
+            <h4>What does HTML stand for?</h4>
+            <input id="Hyper links and Text Markup Language" type="checkbox" name="What does HTML stand for?"
+                value="Hyper links and Text Markup Language" />
+            <label for="Hyper links and Text Markup Language">Hyper links and Text Markup Language</label>
+            <br />
+            <input id="Home Tool Markup Language" type="checkbox" name="What does HTML stand for?"
+                value="Home Tool Markup Language" />
+            <label for="Home Tool Markup Language">Home Tool Markup Language</label>
+            <br />
+            <input id="Hyper Text Markup Language" type="checkbox" name="What does HTML stand for?"
+                value="Hyper Text Markup Language" />
+            <label for="Hyper Text Markup Language">Hyper Text Markup Language</label>
+            <br />
+            <h4>What does HTTP stand for?</h4>
+            <input id="Hyper Text Translate Protocol" type="radio" name="What does HTTP stand for?"
+                value="Hyper Text Translate Protocol" />
+            <label for="Hyper Text Translate Protocol">Hyper Text Translate Protocol</label>
+            <br />
+            <input id="Hyper Text Transmission Protocol" type="radio" name="What does HTTP stand for?"
+                value="Hyper Text Transmission Protocol" />
+            <label for="Hyper Text Transmission Protocol">Hyper Text Transmission Protocol</label>
+            <br />
+            <input id="Hyper Text Transfer Protocol" type="radio" name="What does HTTP stand for?"
+                value="Hyper Text Transfer Protocol" />
+            <label for="Hyper Text Transfer Protocol">Hyper Text Transfer Protocol</label>
+            <h5>Comment</h5>
+            <textarea name="Comment" cols="30" rows="5" style="resize: yes;" placeholder="Comment"
+                maxlength="500"></textarea>
+            <h5>What does HTML stand for?</h5>
+            <select name="Answer">
+                <option value="Your answer">Your answer</option>
+                <option value="Answer1">Hyper links and Text Markup Language</option>
+                <option value="Answer2">Home Tool Markup Language</option>
+                <option value="Answer3">Hyper Text Markup Language</option>
+            </select>
+            <br />
+            <br />
+            <input type="submit" />
+        </form>
+    </fieldset>
+</body>
+</html>
