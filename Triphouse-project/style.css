@@ -8,6 +8,8 @@
     max-width: 1200px;
 }
 .offer h1 {
+    padding-top: 120px;
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 200px;
     position: relative;
 }
@@ -18,7 +20,7 @@
     width: 100px;
     height: 5px;
     margin: 0px auto;
-    top: 100px;
+    top: 220px;
     left: 0px;
     right: 0px;
     background-color: rgb(243, 197, 79);
@@ -26,6 +28,7 @@
 .offer .offer_items {
     display: flex;
     justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
 }
 @media (max-width: 500px) {
     .offer .offer_items {
@@ -35,6 +38,7 @@
 }
 .offer_item img{
     width: 100px;
+    height: 200px;
     display: block;
     margin: 0px auto;
 }
