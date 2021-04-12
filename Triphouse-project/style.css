@@ -163,7 +163,6 @@
 .offer {
     margin: 0px auto;
     text-align: center;
-    width: 1440px;
     height: 569px;
     background: #FFFFFF;
 }
@@ -269,7 +268,7 @@
       margin-top: 35px;
     }
     .offer__items img {
-      width: 15%;
+      width: 155%;
     }
     footer {
       width: 360px;
@@ -281,6 +280,7 @@
     .footer__small {
       display: flex;
       flex-direction: column;
+      margin-top: 1217px;
     }
     .small__logo {
       position: absolute;
