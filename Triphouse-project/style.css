@@ -160,15 +160,98 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+  max-width: 1440px;
+  height: 500px;
+  margin: 0px auto;
+}
+.header {
+  height: 100vh;
+  background-image: url('../Triphouse-project/header_mainBackground.svg');
+  background-size: cover;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  padding: 57px 104px 0 104px;
+}
+.header__navigation {
+  margin-left: 610px;
+  display:flex;
+  justify-content: center;
+}
+.header__navigation ul {
+  display: flex;
+  list-style-type: none;
+}
+.header__navigation li {
+  margin-left: 24px;
+}
+.header__navigation a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-bottom: 12px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.header__navigation li:hover a {
+  border-bottom: 3px solid #F5BD41;
+}
+.header__settings {
+  margin-left: 48px;
+  display: flex;
+  align-items: center;
+}
+.header__night_icons {
+  color: #ffffff;
+  font-size: 30px;
+}
+.header__night_icons:hover {
+  color: #F5BD41;
+  cursor: pointer;
+}
+.header__account_icons {
+  margin-left: 22px;
+  color: #ffffff;
+  font-size: 40px;
+}
+.header__account_icons:hover {
+  color: #F5BD41;
+  cursor: pointer;
+}
+.header__menu_icons {
+  display: none;
+  color: #ffffff;
+  font-size: 24px;
+}
+.header__menu_icons:hover {
+  color: #F5BD41;
+  cursor: pointer;
+}
+.header__title {
+  font-size: 50px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 180px;
+  margin-bottom: 100px;
+  padding-left: 104px;
+}
+.header__appstore-links {
+  width: 265px;
+  display: flex;
+  justify-content: space-between;
+  margin: 120px auto 0px;
+}
 .offer {
-    margin: 0px auto;
     text-align: center;
     height: 569px;
     background: #FFFFFF;
 }
 .offer h2 {
     padding-top: 120px;
-    font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 88px;
@@ -188,7 +271,6 @@
 .offer .offer__items {
     display: flex;
     justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 400;
     padding-left: 214px;
@@ -212,7 +294,6 @@
   }
   .footer__section {
     height: 630px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 47px;
@@ -245,12 +326,36 @@
     font-size: 15px;
   }
   @media (max-width: 500px) {
-    .offer {
-      padding: 0px;
-    }
+  .header {
+      padding: 12px 16px 40px;
+  }
+  .header__top>img {
+      width: 121px;
+      height: 24px;
+  }
+  .header__navigation {
+      display: none;
+  }
+  .header__night_icons {
+      font-size: 16px;
+  }
+  .header__account_icons {
+      font-size: 24px;
+      margin: 0 16px;
+  }
+  .header__menu_icons {
+      display: block;
+  }
+  .header__title {
+      font-size: 30px;
+      margin-top: 40px;
+  }
     main {
       height: 641px;
       width: 360;
+    }
+    .offer {
+      padding: 0px;
     }
     .offer h2 {
       font-size: 28px;
@@ -268,7 +373,7 @@
       margin-top: 35px;
     }
     .offer__items img {
-      width: 155%;
+      width: 150%;
     }
     footer {
       width: 360px;
@@ -288,7 +393,6 @@
       padding-left: 131px;
     }
     .footer__links {
-      font-family: 'Roboto', sans-serif;
       font-weight: 500;
       font-size: 15px;
       line-height: 18px;
@@ -311,7 +415,6 @@
       padding-left: 71px;
       padding-top: 149px;
       font-size: 12px;
-      font-family: 'Roboto', sans-serif;
       font-weight: 400;
       line-height: 18px;
       text-align: center;
