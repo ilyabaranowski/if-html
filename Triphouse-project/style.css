@@ -239,6 +239,40 @@ body{
   margin-bottom: 100px;
   padding-left: 104px;
 }
+form {
+  display: flex;
+  padding-left: 104px;
+  padding-right: 104px;
+  font-size: 18px;
+}
+form p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+form input {
+  height: 65px;
+  width: 100%;
+  border-radius: 12px;
+}
+form .header__destination {
+  flex-grow: 4;
+}
+form .header__check {
+  flex-grow: 3;
+}
+form .header__check div{
+  display: flex;
+}
+form button {
+  flex-grow: 2;
+  height: 65px;
+  margin-top: 52px;
+}
+button {
+  background-color: #3077C6;
+  border-radius: 12px;
+  color: #FFFFFF;
+}
 .header__appstore-links {
   width: 265px;
   display: flex;
