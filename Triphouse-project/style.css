@@ -170,7 +170,7 @@ body{
 }
 .header {
   height: 100vh;
-  background-image: url('../Triphouse-project/header_mainBackground.svg');
+  background-image: url('./img/header_mainBackground.svg');
   background-size: cover;
 }
 .header__top {
