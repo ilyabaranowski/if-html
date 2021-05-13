@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./conv.css" />
     <title>Triphouse-project</title>
 </head>
 
@@ -19,7 +20,7 @@
                         <nav>
                             <ul>
                                 <li><a href="#">Stays</a></li>
-                                <li><a href="#">Attractions</a>></li>
+                                <li><a href="#">Attractions</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -34,7 +35,7 @@
                 <div class="header__title">
                     <h2>Discover stays <br /> live, work or just relax</h2>
                 </div>
-                <form action="">
+                <form action="" class="desctop">
                     <div class="header__destination">
                         <p><label for="search">Your destination or hotel name</label></p>
                         <input id="search" type="text" name="search" />
@@ -49,6 +50,31 @@
                             <input type="date" id="out" />
                             <input id="qtpeople" type="text" placeholder="2 Adults — 0 Children — 1 Room"
                                 name="qtpeople" />
+                        </div>
+                    </div>
+                    <button>Search</button>
+                </form>
+                <form action="" class="mobile">
+                    <div class="firts">
+                        <label for=""></label>
+                        <input type="text" placeholder="Your destination or hotel name" />
+                    </div>
+                    <div class="second">
+                        <div>
+                            <label for="">Check-in date</label>
+                            <input type="date" placeholder="Mon 26 Apr 2021" value="26-04-2021" />
+                        </div>
+                        <div><label for="">Check-out date</label>
+                            <input type="date" placeholder="Mon 26 Apr 2021" value="26-04-2021">
+                        </div>
+                    </div>
+                    <div class="third">
+                        <div>
+                            <label for="">Adults</label>
+                            <input type="number" value="0" />
+                        </div>
+                        <div><label for="">Rooms</label>
+                            <input type="number" value="0">
                         </div>
                     </div>
                     <button>Search</button>
@@ -80,6 +106,168 @@
                         <span>Real guest reviews</span>
                     </div>
                 </div>
+            </section>
+            <section class="loves">
+                <h2>Homes guests loves</h2>
+                <div class="loves__items">
+                    <div class="loves__item">
+                        <img src="./img/Hotel_Leopold.svg" alt="Hotel_Leopold">
+                        <p class="loves__item_placename">Hotel Leopold</p>
+                        <p class="loves__item_geotag">Saint Petersburg, Russia</p>
+                    </div>
+                    <div class="loves__item">
+                        <img src="./img/Apartment_Sunshine.svg" alt="Apartment_Sunshine">
+                        <p class="loves__item_placename">Apartment Sunshine</p>
+                        <p class="loves__item_geotag">Santa Cruz de Tenerife,<br /> Spain</p>
+                    </div>
+                    <div class="loves__item">
+                        <img src="./img/Villa_Kunerad.svg" alt="Villa_Kunerad">
+                        <p class="loves__item_placename">Villa Kunerad</p>
+                        <p class="loves__item_geotag">Vysokie Tatry, Slowakia</p>
+                    </div>
+                    <div class="loves__item">
+                        <img src="./img/Hostel_Friendship.svg" alt="Hostel_Friendship">
+                        <p class="loves__item_placename">Hostel Friendship</p>
+                        <p class="loves__item_geotag">Berlin, Germany</p>
+                    </div>
+                    <!-- <div class="loves__item_arrow"><img src="./img/arrow.svg" alt="arrow"></div> -->
+                </div>
+            </section>
+            <section class="destinations">
+                <h2>The best destinations</h2>
+                <div class="destinations__buttons">
+                    <button>Regions</button>
+                    <button>Cities</button>
+                    <button>Places of interest</button>
+                    <button>Places</button>
+                </div>
+                <div class="destinations__items">
+                    <div class="destinations__item">
+                        <img src="./img/Maldives.svg" alt="Maldives">
+                        <p class="destinations__item_placename">Maldives</p>
+                    </div>
+                    <div class="destinations__item">
+                        <img src="./img/Spain.svg" alt="Spain">
+                        <p class="destinations__item_placename">Spain</p>
+                    </div>
+                    <div class="destinations__item">
+                        <img src="./img/Norway.svg" alt="Norway">
+                        <p class="destinations__item_placename">Norway</p>
+                    </div>
+                    <div class="destinations__item">
+                        <img src="./img/Island.svg" alt="Island">
+                        <p class="destinations__item_placename">Island</p>
+                    </div>
+                </div>
+                <div class="destinations__item_arrow"><img src="./img/arrow-down.svg" alt="arrow"></div>
+                <div class="sign-up">
+                    <div>
+                        <img src="./img/signup-img.svg" alt="sign-up">
+                    </div>
+                    <div class="sign-up__items">
+                        <div>
+                            <p>Sign up and get 20% off your first booking</p>
+                        </div>
+                        <div class="sign-up__items">
+                            <button>Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="reviews">
+                <h2>Guests reviews</h2>
+                <h4>Reviews</h4>
+                <div class="reviews__items">
+                    <div class="reviews__item">
+                        <div class="reviews__img">
+                            <a href="">
+                                <img src="./img/UbudBaliResortSPA.svg" alt="UbudBaliResortSPA">
+                            </a>
+                            <p>From 250 USD</p>
+                        </div>
+                        <div class="reviews__place">
+                            <a href="">
+                                <p>Ubud Bali Resort&SPA</p>
+                                <p>Bali, Indonesia</p>
+                            </a>
+                        </div>
+                        <div class="reviews__numbers">
+                            <div class="reviews__mark">
+                                <p>9,4</p>
+                            </div>
+                            <!-- <p>1324 reviews</p> -->
+                        </div>
+                        <div class="reviews__text">
+                            <p>Hanna Ivanova</p>
+                            <p>&#x1f1fa;&#x1f1e6; Ukraine</p>
+                            <p>Great location, really pleasant and clean rooms, but the thing that makes this such a
+                                good place to stay are the staff. All of the people are incredibly helpful and generous
+                                with their time and advice. </p>
+                        </div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__img">
+                            <a href="">
+                                <img src="./img/KingKongHostel.svg" alt="KingKongHostel">
+                            </a>
+                            <p>From 40 USD</p>
+                        </div>
+                        <div class="reviews__place">
+                            <a href="">
+                                <p>King Kong Hostel</p>
+                                <p>Rotterdam, Netherlands</p>
+                            </a>
+                        </div>
+                        <div class="reviews__numbers">
+                            <div class="reviews__mark">
+                                <p>8,9</p>
+                            </div>
+                            <!-- <p>2016 reviews</p> -->
+                        </div>
+                        <div class="reviews__text">
+                            <p>Adam Smith</p>
+                            <p>&#x1F1FA;&#x1F1F8; USA</p>
+                            <p>I've been in this hostel for a month and here is the best hostel of all
+                                Excellent management of excellent and ethical staff and bedrooms Bathrooms are always
+                                clean and excellent
+                                Most importantly, those who work here are kind and good-natured. </p>
+                        </div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__img">
+                            <a href="">
+                                <img src="./img/RokokoHotel.svg" alt="RokokoHotel">
+                            </a>
+                            <p>From 100 USD</p>
+                        </div>
+                        <div class="reviews__place">
+                            <a href="">
+                                <p>Rokoko Hotel</p>
+                                <p>Ourika, Marocco</p>
+                            </a>
+                        </div>
+                        <div class="reviews__numbers">
+                            <div class="reviews__mark">
+                                <p>9,1</p>
+                            </div>
+                            <!-- <p>815 reviews</p> -->
+                        </div>
+                        <div class="reviews__text">
+                            <p>Anika Messer</p>
+                            <p>&#x1F1E9;&#x1F1EA; Germany</p>
+                            <p>Efficient, friendly, professional, and appropriately attentive. Great hotel in a great
+                                location. Easy access to all the surrounding historical sites. Staff is fantastic. Will
+                                definitely stay at this location during my next stay in Marocco.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sign-up_mobile">
+                <a href="#">
+                    <img src="./img/logo-sign-up-mobile.svg" alt="logo">
+                </a>
+                <p>Sign up in the app and get 20% <br /> off your first booking</p>
+                <a href="#">Install</a>
             </section>
         </main>
         <footer>

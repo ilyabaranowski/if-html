@@ -1,0 +1,39 @@
+@media (min-width: 850px){
+.sign-up_mobile {
+    display: none;
+}
+}
+@media (max-width: 849px){
+.sign-up_mobile {
+    padding: 24px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #383838;
+        }
+    a {
+        &:first-child {
+            padding-left: 33px;
+        }
+        &:last-child {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            color: #3077c6;
+        }
+    }
+    &::before {
+        content: url(./img/close-logo-mob.svg);
+        position: absolute;
+        top: 45px;
+        left: 17px;
+        }
+    }
+}

@@ -1,0 +1,246 @@
+@media (min-width: 850px){
+.reviews {
+    padding: 0 105px;
+    h2 {
+        padding-top: 120px;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 88px;
+        position: relative;
+        text-align: center;
+    }
+    h4 {
+        display: none;
+    }
+}
+    .reviews__items {
+        display: flex;
+        justify-content: space-around;
+        font-weight: 400;
+        padding-bottom: 120px;
+        padding-left: 104px;
+        padding-right: 104px;
+    }
+    .reviews__item {
+        background: #EAF0F9;
+        &:last-child {
+			position: relative;
+			&::after {
+				position: absolute;
+				content: url(./img/arrow.svg);
+				top: 180px;
+				left: 377px;
+			}
+		}
+    }
+    .reviews__img {
+        position: relative;
+        p {
+            position: absolute;
+			top: 365px;
+			left: 24px;
+			font-size: 18px;
+			line-height: 21px;
+			color: #ffffff;
+			z-index: 1;
+        }
+        &::after {
+            content: "";
+			height: 48px;
+			position: absolute;
+			top: 352px;
+			left: 0;
+			right: 0;
+			background: rgba(56, 56, 56, 0.7);
+			opacity: 1;
+        }
+        }
+        .reviews__numbers {
+            p {
+                font-weight: normal;
+                font-size: 14px;
+                color: #bfbfbf;
+                position: absolute;
+                line-height: 14px;
+                top: -87px;
+                left: 360px;
+                &:first-child {
+                    position: absolute;
+                    top: 3px;
+                    left: 12px;
+                    line-height: 20px;
+                }
+            }
+        }
+        .reviews__mark {
+            background: #10367c;
+            width: 48px;
+            height: 32px;
+            border-radius: 5px;
+            position: absolute;
+            margin-left: 332px;
+            margin-top: -76px;
+            p {
+                font-weight: 600;
+                font-size: 18px;
+                color: #ffffff;
+                padding-top: 2px;
+                padding-bottom: 0px;
+            }
+        }
+        .reviews__place {
+            a {
+                text-decoration: none;
+            }
+            p {
+                font-size: 18px;
+                color: #3077c6;
+                padding-top: 26px;
+                padding-left: 24px;
+                text-align: left;
+                line-height: 18px;
+                &:last-child {
+                    font-weight: 400;
+                    padding-top: 0px;
+                    padding-bottom: 31px;
+                }
+                &:first-child {
+                    font-weight: 500;
+                    padding-bottom: 8px;
+                }
+            }
+        }
+        .reviews__text {
+            position: relative;
+            padding-bottom: 24px;
+            p {
+                font-size: 18px;
+                text-align: left;
+                padding: 0px 24px 8px 24px;
+                line-height: 18px;
+                &:nth-child(1) {
+                    padding-left: 104px;
+                }
+                &:nth-child(2) {
+                    color: #bfbfbf;
+                    padding-left: 104px;
+                    padding-bottom: 24px;
+                }
+                &::after {
+                    content: url(./img/guestPic.svg);
+                    position: absolute;
+                    top: 0px;
+                    left: 30px;
+                }
+            }
+        }
+}
+@media (max-width: 849px){
+.reviews {
+    h2 {
+        display: none;
+    }
+    h4 {
+        padding-top: 40px;
+        font-size: 28px;
+        font-weight: 500;
+        margin-bottom: 32px;
+        position: relative;
+        text-align: center;
+    }
+}
+.reviews__items {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+    padding-left: 104px;
+    padding-right: 104px;
+}
+    .reviews__item {
+        background: #EAF0F9;
+        &:not(:first-child) {
+			display: none;
+		    }
+        }
+    }
+    .reviews__img {
+        position: relative;
+        p {
+            display: none;
+        }
+    }
+        .reviews__numbers {
+            p {
+                font-weight: normal;
+                font-size: 14px;
+                color: #bfbfbf;
+                position: absolute;
+                line-height: 14px;
+                top: -87px;
+                left: 360px;
+                &:first-child {
+                    position: absolute;
+                    top: 3px;
+                    left: 10px;
+                    line-height: 20px;
+                }
+            }
+        }
+        .reviews__mark {
+            background: #10367c;
+            width: 41px;
+            height: 27px;
+            border-radius: 5px;
+            position: absolute;
+            margin-left: 332px;
+            margin-top: -76px;
+            p {
+                font-weight: 600;
+                font-size: 15px;
+                color: #ffffff;
+            }
+        }
+        .reviews__place {
+            a {
+                text-decoration: none;
+            }
+            p {
+                font-size: 15px;
+                color: #3077c6;
+                padding-top: 26px;
+                padding-left: 24px;
+                text-align: left;
+                line-height: 18px;
+                &:last-child {
+                    font-weight: 400;
+                    padding-bottom: 31px;
+                }
+                &:first-child {
+                    font-weight: 500;
+                }
+            }
+        }
+        .reviews__text {
+            position: relative;
+            padding-bottom: 24px;
+            p {
+                font-size: 15px;
+                text-align: left;
+                padding: 0px 24px 8px 24px;
+                line-height: 18px;
+                &:nth-child(1) {
+                    padding-left: 104px;
+                }
+                &:nth-child(2) {
+                    color: #bfbfbf;
+                    padding-left: 104px;
+                    padding-bottom: 24px;
+                }
+                &::after {
+                    content: url(./img/guestPic.svg);
+                    position: absolute;
+                    top: 0px;
+                    left: 30px;
+                }
+            }
+        }
